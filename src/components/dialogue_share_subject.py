@@ -5,7 +5,7 @@ import io
 
 @st.dialog("Share Subject")
 def share_subject_dialogue(subject_name,subject_code):
-    app_domain = "SmartClass-main-india.streamlit.app"    
+    app_domain = "SmartClass-main-ak.streamlit.app"    
     join_url = f"{app_domain}/?join-code={subject_code}"
 
     st.header("Scan to join")
